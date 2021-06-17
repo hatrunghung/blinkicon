@@ -1,5 +1,6 @@
 import multi from '@rollup/plugin-multi-entry'
 import babel from '@rollup/plugin-babel'
+import filesize from 'rollup-plugin-filesize'
 
 const formats = ['esm', 'umd'] // cjs?
 
@@ -21,6 +22,7 @@ export default {
 		babel({
 			babelHelpers: 'runtime',
 			plugins: ["@babel/plugin-transform-runtime"]
-		})
+		}),
+		filesize()
 	]
 }

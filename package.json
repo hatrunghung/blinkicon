@@ -9,7 +9,9 @@
   },
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -21,7 +23,8 @@
     "@rollup/plugin-multi-entry": "^4.0.0",
     "@svgr/cli": "^5.5.0",
     "rimraf": "^3.0.2",
-    "rollup": "^2.52.1"
+    "rollup": "^2.52.1",
+    "rollup-plugin-filesize": "^9.1.1"
   },
   "dependencies": {
     "@babel/runtime": "^7.14.6"
