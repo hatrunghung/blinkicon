@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+  <g clip-path="url(#funnel-16__clip0)">
+    <path stroke="#000" d="M3.333 5.4l2.334 2.4h4.666l2.334-2.4m-9.334 0h9.334m-9.334 0L1 3h14l-2.333 2.4m-7.39 2h5.445V13H5.278V7.4z"/>
+  </g>
+  <defs>
+    <clipPath id="funnel-16__clip0">
+      <path fill="#fff" d="M0 0h16v16H0z"/>
+    </clipPath>
+  </defs>
+</svg>

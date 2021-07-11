@@ -5,7 +5,7 @@ import filesize from 'rollup-plugin-filesize'
 const formats = ['esm', 'umd'] // cjs?
 
 export default {
-	input: ['src/16/index.js', 'src/24/index.js'],
+	input: 'src/index.js',
 	output: formats.map(format => ({
 		file: `dist/index.${format}.js`,
 		format,
