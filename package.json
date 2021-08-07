@@ -1,6 +1,6 @@
 {
   "name": "blinkicon",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "SVG icon for blink",
   "scripts": {
     "prebuild": "rimraf src && rimraf dist",
